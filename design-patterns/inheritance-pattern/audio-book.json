@@ -1,0 +1,12 @@
+{
+    "title": "Practical MongoDB Aggregations",
+    "description": "The complete book of MongoDB by its employees",
+    "genres": ["Programming"],
+    "publisher": "MongoDB Press",
+    "price": 0.00,
+    "authors": ["Paul Done"],
+    "product_type": "audiobook",
+    "download_url": "https://fake-url/ebook",
+    "narrators": ["Paul Done"],
+    "duration": "21 hours 8 minutes"
+}

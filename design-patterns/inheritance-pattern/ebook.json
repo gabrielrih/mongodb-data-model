@@ -1,0 +1,10 @@
+{
+    "title": "Practical MongoDB Aggregations",
+    "description": "The complete book of MongoDB by its employees",
+    "genres": ["Programming"],
+    "publisher": "MongoDB Press",
+    "price": 0.00,
+    "authors": ["Paul Done"],
+    "product_type": "ebook",
+    "download_url": "https://fake-url/ebook"
+}
