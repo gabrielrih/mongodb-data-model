@@ -35,4 +35,4 @@ References:
 - [Guideline to define when to embed or reference](./reference-or-embed-guideline.pdf)
 
 ## Design Patterns
-[Here](./design-patterns/) you can see the Design Patterns you can use with MongoDB.
+[Here](./design-patterns/) you can see the Design Patterns you can use in MongoDB.
