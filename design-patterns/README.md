@@ -10,3 +10,9 @@ Here we have more details about the most common patterns:
 - [Approximation Pattern](./approximation-pattern/)
 - [Extended reference pattern](./extended-reference-pattern/)
 - [Schema versioning pattern](./schema-versioning-pattern/)
+- [Single Collection pattern](./single-collection-pattern/)
+<!-- - Subset pattern
+- Bucket pattern
+- Outlier pattern
+- Archive pattern
+-->
