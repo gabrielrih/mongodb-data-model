@@ -11,8 +11,7 @@ Here we have more details about the most common patterns:
 - [Extended reference pattern](./extended-reference-pattern/)
 - [Schema versioning pattern](./schema-versioning-pattern/)
 - [Single Collection pattern](./single-collection-pattern/)
-<!-- - Subset pattern
-- Bucket pattern
-- Outlier pattern
-- Archive pattern
--->
+- [Subset pattern](./subset-pattern/)
+- [Bucket pattern](./bucket-pattern/)
+- [Outlier pattern](./outlier-pattern/)
+- [Archive pattern](./archive-pattern/)
