@@ -2,6 +2,15 @@
 Repository created to show data model examples, design patterns and guidelines.
 All this with the goal to help you to modelling in MongoDB the right way.
 
+## Index
+- [Overview](#overview)
+    - [Golden Rule](#golden-rule)
+- [Workloads](#workloads)
+- [Relationships](#relationships)
+- [Design Patterns](#design-patterns)
+- [Anti patterns](#anti-patterns)
+- [Lifecycle management](#lifecycle-management)
+
 ## Overview
 Consider to follow the three main phases:
 
@@ -13,7 +22,7 @@ Consider to follow the three main phases:
 
 Reference: [Data Modeling for MongoDB Overview](https://learn.mongodb.com/learn/course/data-modeling-for-mongodb-overview/lesson-1-course-introduction)
 
-### Goden Rule
+### Golden Rule
 Data that is accessed together should be stored together.
 
 ## Workloads
@@ -35,4 +44,10 @@ References:
 - [Guideline to define when to embed or reference](./reference-or-embed-guideline.pdf)
 
 ## Design Patterns
-[Here](./design-patterns/) you can see the Design Patterns you can use in MongoDB.
+[Here](./design-patterns/README.md) you can see the Design Patterns you can use in MongoDB.
+
+## Anti patterns
+[Here](./anti-patterns/README.md) you can see the Design Patterns you MUST AVOID in MongoDB.
+
+## Lifecycle management
+To do.
