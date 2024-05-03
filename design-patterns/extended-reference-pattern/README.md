@@ -6,7 +6,7 @@
     - Reduce the latency of read.
     - Increase performance.
 - Down sides:
-    - Duplication
+    - Some data duplication
 
 ## Example
 Imagine we have three collections - users, books and reviews - and we want to add a new feature allowing to filter the reviews by user, product_type or book title.

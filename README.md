@@ -9,7 +9,7 @@ All this with the goal to help you to modelling in MongoDB the right way.
 - [Relationships](#relationships)
 - [Design Patterns](#design-patterns)
 - [Anti patterns](#anti-patterns)
-- [Lifecycle management](#lifecycle-management)
+- [Schema lifecycle management](#schema-lifecycle-management)
 
 ## Overview
 Consider to follow the three main phases:
@@ -49,5 +49,5 @@ References:
 ## Anti patterns
 [Here](./anti-patterns/README.md) you can see the Design Patterns you MUST AVOID in MongoDB.
 
-## Lifecycle management
-To do.
+## Schema lifecycle management
+[Here](./schema-lifecycle/README.md) you can see how to manage the schema lifecycle.
