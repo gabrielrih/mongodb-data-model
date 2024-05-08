@@ -98,7 +98,39 @@ db.runCommand({
 ```
 
 ## Schema evolution
-To do.
+- The structure of a database will change over time. This process is know as schema evolution.
+- We can gradually evolve the schema. This is possible because documents with differents shapes can coexist within the same collection. In this cases you can use schema validation to check schema consistency in new documents.
+- Monitoring schema evolution is important to identify schema design issues, improve data quality and optimizing performance.
+- Monitoring the logs is an essential element of any strategy, especially if the validation action is set to warm. But, it's no easy to handle. MongoDB Atlas has Schema Suggestions.
 
 ## Schema migration
-To do.
+- MongoDB allows to multiple schema versions to coexist within the same collection.
+- Versioning is a common strategy to enable controlled migrations.
+- Working with a large number of versions increases complexity. So, you should limit the number of schema versions to the minimum required.
+- To migrate to the new version of our schema, there are several strategies that we can use:
+  - __Eager__: all at once.
+  - __Lazy__: changes are implemented as data is used.
+  - __Incremental__: where we take small steps to implement changes.
+  - __Predictive__: updates the schema based on predictions for future data usage.
+- To validate schema using multiples schemas we can use the __oneOf__ in the schema validation rules. For example,
+
+```js
+const schema_migration_validation = {
+  $jsonSchema: {
+    oneOf: [
+      bookstore_reviews_default,
+      bookstore_reviews_international
+    ]
+  }
+}
+
+db.runCommand({
+  collMod: "reviews",
+  validator: schema_migration_validation,
+  validationLevel: "strict",
+  validationAction: "error"
+});
+
+```
+
+> In this case, the variables bookstore_reviews_default and bookstore_reviews_international represents schema validation for each schema version.
