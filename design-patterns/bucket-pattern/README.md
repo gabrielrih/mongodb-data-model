@@ -54,7 +54,7 @@ views: [
 ]
 ```
 
-> Note here that we must have a predictable array size, so a strategy you can use in the application is to create a new document every time the number of views in the documents reach a certain size. This way you avoid unbonded arrays.
+> Note here that we must have a predictable array size, so a strategy you can use in the application is to create a new document every time the number of views in the documents reach a certain size. This way you avoid unbounded arrays.
 
 To analyse the quantity of views for a single book in a single month you could use this command here:
 ```sh
