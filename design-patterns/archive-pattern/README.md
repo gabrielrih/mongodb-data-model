@@ -4,7 +4,7 @@
     - Data complaince that I need to keep for some years.
     - IoT measurements
     - Old logs
-- What to do that?
+- Why to do that?
     - A collection with a large number of inactive documents can impact performance.
     - Large indexes can waste memory.
 - The Archive Pattern moves inactive documents out of main database.
