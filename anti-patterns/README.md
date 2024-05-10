@@ -74,7 +74,7 @@ var sortIndexesByAccessOpsPipeline =  [
     - Unexpected results.
     - Reduce performance.
 - How do I configure MongoDB to support case insensitive queries? Using __collations__.
-- A collation has locale and strength (from 1 to 5). The default strength value is 3, which makes it case sensitive. __To make the comparison case insensitive we need to set eh strength to 1 or 2__.
+- A collation has locale and strength (from 1 to 5). The default strength value is 3, which makes it case sensitive. __To make the comparison case insensitive we need to set the strength to 1 or 2__.
 - How to implement it?
     - You can build an index with a given collation. And then, you specify this same collation in the query.
     - You can also assign a default collation to a collection when you create it (the collation cannot be changed). The queries triggered through this collection will also use this same collation.
