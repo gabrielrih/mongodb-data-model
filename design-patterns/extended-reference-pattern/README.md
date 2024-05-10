@@ -43,7 +43,7 @@ To manage duplication when a source field is updated first identify what is the 
 - What is the list of dependent extended references? What other fields need to be updated once the source gets updated? The application must know this references.
 - Do the extended references need to be updated immediately or can they be updated at a later time? A scheduled task can be configured to update the document with extended references periodically instead of doing it every time the original referenced document is updated.
 
-## Implementing this pattern on an existente dataset
+## Implementing this pattern on an existent dataset
 - Aggregation framework.
 
 Example of bringing the product data to the review collection.
