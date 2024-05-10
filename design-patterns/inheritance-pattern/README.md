@@ -1,7 +1,7 @@
 # Inheritance Pattern
 
 - It provides to us a way to store polymorphic data in the same collection.
-- Note that in this case the documents have some fields and common but there are differences between them.
+- Note that in this case the documents have some fields in common but there are differences between them.
 - By using a field to track the shape of documents, applications can handle different kinds of documents within the same collection.
 - The ideal is to apply this pattern in the modeling phase, but if you already has a collection, you can use the Aggregation Framework to apply the Inheritance Patten in this existente collection.
 - Some use cases for this in when you store in the same collection the following content:
