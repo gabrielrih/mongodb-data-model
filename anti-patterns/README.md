@@ -26,7 +26,7 @@
 - How to reduce performance impact?
     - Increase cluster memory: To fit more data in the WiredTiger internal cache.
     - Estimate the working set size and update the data model to use less memory.
-- Example: let's suppose we have a Books collections where each document represents all the data from a book. In addition, our app has to pages: a homepage that loads just the book name and author, and another page that displays the details of a single book. In this case, it doesn't make sense to store all the books details in a single collections because some data is access in the home page (top 10 books for example) and the other details are accessed in the details web page. This way we can split this documents in two different collections: Summary and Details.
+- Example: let's suppose we have a Books collections where each document represents all the data from a book. In addition, our app has two pages: a homepage that loads just the book name and author, and another page that displays the details of a single book. In this case, it doesn't make sense to store all the books details in a single collections because some data is access in the home page (top 10 books for example) and the other details are accessed in the details web page. This way we can split this documents in two different collections: Summary and Details.
 
 ### Massive Number of Collections
 - In theory, the recommended limit for the number of collections in a replica set is 10,000. In real world, it depends on your workload and database resources.
