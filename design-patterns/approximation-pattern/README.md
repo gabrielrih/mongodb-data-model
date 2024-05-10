@@ -6,8 +6,8 @@
     - When getting the exact number is not critical.
 - It's a good choice when working with Big Data.
 - Advantages:
-    - Reduces writes.
-    - Can hel reduce contention on heavily updated documents (in some cases).
+    - It reduces writes.
+    - It can help reducing contention on heavily updated documents (in some cases).
 
 ## Example
 The example on the [Computed Pattern](../computed-pattern/) about the calculation of the reviews rating on every write, reduces the reading time but double the number of writes (because on every new review an update is performed on the book document). Note that in this case of the Computed Pattern example, the average of the rating reviews is accurate.
