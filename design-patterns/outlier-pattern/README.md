@@ -6,7 +6,7 @@
     - This is very common when handling popular itens in a eCommerce for example, which can have millions of comments.
 
 ## Example
-Let's suppose we want to treat has outlier every book document which reachs the number of 1.000 comments
+Let's suppose we want to treat as outlier every book document which reachs the number of 1.000 comments
 ```json
 {
   "rating": 1,
