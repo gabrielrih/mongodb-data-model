@@ -1,7 +1,7 @@
 # Bucket Pattern
 - Motivation:
     - It's a good option when embedding would result in very large documents and unbounded arrays and the reference option would result in poor performance.
-    - When working with real data, for example the temperature from a sensor, you could want to create a new document for every single read made by the sensor. But imagine how many documents it would have if the measurement is taken every one minute. Besides, imagine if you want to create an index for the sensor_id and timestamp field, the cardinality is to high so the index would be so big.
+    - When working with real data, for example the temperature from a sensor, you could want to create a new document for every single read made by the sensor. But imagine how many documents it would have if the measurement is taken every one minute. Besides, imagine if you want to create an index for the sensor_id and timestamp field, the cardinality is to high so the index would be too big.
     - To avoid this you can create and start_datetime and end_datetime on each document and put all the measurements between that time in that same document. For example:
 
 ```json
