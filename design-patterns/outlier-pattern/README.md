@@ -17,7 +17,7 @@ Let's suppose we want to treat as outlier every book document which reachs the n
 }
 ```
 
-In this case you can first mark this document has outlier. An way to do that is to include a field called _outlier_ using the value _true_. After that you can decide how to treat the data based on your application: you can create the next documents in a separete collection, you can use the bucket pattern to split this comments in more then one document within the same collection. It all depends on your application.
+In this case you can first mark this document has outlier. A way to do that is to include a field called _outlier_ using the value _true_. After that you can decide how to treat the data based on your application: you can create the next documents in a separete collection, you can use the bucket pattern to split this comments in more then one document within the same collection. It all depends on your application.
 
 > Note here that your application must treat it.
 
